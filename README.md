@@ -14,7 +14,7 @@ Kompatibel mit Backups der App „Kennzeichensammler“ (Import und Export).
 2. In den Android-Einstellungen „Installation aus unbekannten Quellen“ für den Browser/Dateimanager erlauben.
 3. APK öffnen und installieren. Voraussetzung: Android 8 oder neuer, 64-Bit-ARM-Gerät (praktisch alle aktuellen Handys).
 
-SHA-256 von `kennzeichen-voice-1.1.apk`: `e4e07764c75f91fe1ee18c4ca23d664ff9a951a6a2dfc10e50079e48b784b47d`
+SHA-256 von `kennzeichen-voice-1.2.apk`: `b2bc801a68697b909fc7a34a1b241900d825bb927ffbadc601878d64511ad281`
 
 ## Bedienung
 
@@ -33,6 +33,7 @@ Zwei Arten:
 - **Das Kürzel:** „KA“, „M“, „HH“ (gesprochen wie ausgesprochen: „Ka“, „Em“, „Ha Ha“).
 - **Buchstabiert mit Buchstabennamen:** „Ka Be“ → KB, „Ha Ha“ → HH. Verstanden werden: a, be, ce/ze, de, e, ef, ge, ha, i, jot, ka, el, em, en, o, pe, ku, er, es, te, u, vau/fau, we, ix, ypsilon, zet/zett. Einzelne Laute wie „Ä“, „Ö“, „Ü“ sagst du als Buchstabe.
 - **Buchstabiert mit der Buchstabiertafel:** „Anton Berta“ → AB. Anton, Berta, Cäsar, Dora, Emil, Friedrich, Gustav, Heinrich, Ida, Julius, Kaufmann, Ludwig, Martha, Nordpol, Otto, Paula, Quelle, Richard, Samuel, Theodor, Ulrich, Viktor, Wilhelm, Xanthippe, Ypsilon, Zacharias; für Umlaute Ärger, Ökonom, Übermut.
+- **Buchstabiert mit dem NATO-Alphabet (englisch):** „Alpha Bravo“ → AB. Alfa/Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu. Auch eingedeutschte Schreibweisen des Erkenners (z. B. „Oskar“, „Maik“, „Tscharli“) werden akzeptiert.
 - **Den Ort oder Kreis:** „Karlsruhe“, „München“, „Landkreis Karlsruhe“, „Stadt Pforzheim“. Vorangestellte Wörter wie Stadt, Landkreis, Kreis, Landeshauptstadt, Städteregion, Region, Regionalverband, Hansestadt, Freie, Powiat werden ignoriert.
 
 **Befehle** (ebenfalls mit „Kennzeichen“ davor)
@@ -47,7 +48,7 @@ Zwei Arten:
 **Rückmeldung:** Ein Ton zeigt, dass das Codewort gehört wurde. Danach sagt die App z. B. „KA, Karlsruhe, neu“ oder „… schon gesehen“. Passt ein Name auf mehrere Kürzel, sagt sie „Mehrdeutig“ und nennt Kandidaten. Dann sag das Kürzel direkt („Kennzeichen KA“). Wird nichts erkannt, trägt die App nichts ein und zeigt „Nicht erkannt“.
 
 **Tipps**
-- Ortsnamen und die Buchstabiertafel werden zuverlässiger erkannt als einzelne Buchstaben.
+- Ortsnamen, die deutsche Buchstabiertafel und das NATO-Alphabet werden zuverlässiger erkannt als einzelne Buchstaben. Du kannst die Alphabete auch mischen („Anton Bravo“).
 - Spricht der Erkenner das Codewort falsch, hilft langsames, deutliches Sprechen. Gängige Varianten („Kenn Zeichen“, „Kennzeichnen“) werden akzeptiert.
 - Ohne Internet funktioniert die Spracherkennung nur, wenn dein Gerät das deutsche Offline-Sprachpaket installiert hat.
 - Falsch eingetragen? „Kennzeichen rückgängig“ oder den Eintrag in der Liste antippen und entfernen.
@@ -90,4 +91,4 @@ Die Nutzung erfolgt auf eigene Gefahr. Für Schäden jeder Art, die aus der Nutz
 
 **Datenschutz beim Fotografieren und Notieren:** Kfz-Kennzeichen können personenbezogene Daten sein. Nutze die App nur im Rahmen der geltenden Gesetze und veröffentliche keine Kennzeichen oder Standortdaten anderer Personen.
 
-Dieser Text steht auch in der App unter Menü → „Info & Haftung“.
+Dieser Text steht auch in der App unter Menü → „Info & Haftung“, dort zusammen mit einer Kurzanleitung für die Sprache.
