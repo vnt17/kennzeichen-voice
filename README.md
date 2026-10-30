@@ -16,6 +16,60 @@ Kompatibel mit Backups der App „Kennzeichensammler“ (Import und Export).
 
 SHA-256 von `kennzeichen-voice-1.1.apk`: `e4e07764c75f91fe1ee18c4ca23d664ff9a951a6a2dfc10e50079e48b784b47d`
 
+## Bedienung
+
+### Spracheingabe
+Mikrofon-Button antippen, dann läuft das Zuhören dauerhaft weiter (Display bleibt an). **Es wird nur ausgewertet, was mit dem Codewort „Kennzeichen“ beginnt**, alles andere wird ignoriert. Höchstens ein Wort davor ist erlaubt („okay Kennzeichen …“). Sagst du das Codewort mitten im Satz, zählt es nicht.
+
+Zwei Arten:
+
+| So sagst du es | Was passiert |
+|---|---|
+| „Kennzeichen Karlsruhe“ | Ton, Kennzeichen wird sofort eingetragen |
+| „Kennzeichen“ … (Ton) … „Karlsruhe“ | Nach dem Ton hast du 8 Sekunden Zeit für das Kennzeichen |
+
+**Was du nach dem Codewort sagen kannst**
+
+- **Das Kürzel:** „KA“, „M“, „HH“ (gesprochen wie ausgesprochen: „Ka“, „Em“, „Ha Ha“).
+- **Buchstabiert mit Buchstabennamen:** „Ka Be“ → KB, „Ha Ha“ → HH. Verstanden werden: a, be, ce/ze, de, e, ef, ge, ha, i, jot, ka, el, em, en, o, pe, ku, er, es, te, u, vau/fau, we, ix, ypsilon, zet/zett. Einzelne Laute wie „Ä“, „Ö“, „Ü“ sagst du als Buchstabe.
+- **Buchstabiert mit der Buchstabiertafel:** „Anton Berta“ → AB. Anton, Berta, Cäsar, Dora, Emil, Friedrich, Gustav, Heinrich, Ida, Julius, Kaufmann, Ludwig, Martha, Nordpol, Otto, Paula, Quelle, Richard, Samuel, Theodor, Ulrich, Viktor, Wilhelm, Xanthippe, Ypsilon, Zacharias; für Umlaute Ärger, Ökonom, Übermut.
+- **Den Ort oder Kreis:** „Karlsruhe“, „München“, „Landkreis Karlsruhe“, „Stadt Pforzheim“. Vorangestellte Wörter wie Stadt, Landkreis, Kreis, Landeshauptstadt, Städteregion, Region, Regionalverband, Hansestadt, Freie, Powiat werden ignoriert.
+
+**Befehle** (ebenfalls mit „Kennzeichen“ davor)
+
+| Sagen | Wirkung |
+|---|---|
+| „Kennzeichen rückgängig“ (auch: zurück, löschen, falsch, letzte löschen) | Entfernt den zuletzt hinzugefügten Eintrag |
+| „Kennzeichen Land Polen“ | Wechselt das Land. Möglich sind alle Länder der Auswahlliste, z. B. Österreich, Schweiz, Frankreich, Italien, Tschechien, Großbritannien (auch: UK, England), Türkei, USA |
+| „Kennzeichen Land Länder“ | Wechselt in die Liste der Länder selbst (ganzes Land eintragen, z. B. „Kennzeichen Polen“) |
+| „Kennzeichen Stopp“ (auch: stop, ende, pause, aufhören) | Beendet das Zuhören |
+
+**Rückmeldung:** Ein Ton zeigt, dass das Codewort gehört wurde. Danach sagt die App z. B. „KA, Karlsruhe, neu“ oder „… schon gesehen“. Passt ein Name auf mehrere Kürzel, sagt sie „Mehrdeutig“ und nennt Kandidaten. Dann sag das Kürzel direkt („Kennzeichen KA“). Wird nichts erkannt, trägt die App nichts ein und zeigt „Nicht erkannt“.
+
+**Tipps**
+- Ortsnamen und die Buchstabiertafel werden zuverlässiger erkannt als einzelne Buchstaben.
+- Spricht der Erkenner das Codewort falsch, hilft langsames, deutliches Sprechen. Gängige Varianten („Kenn Zeichen“, „Kennzeichnen“) werden akzeptiert.
+- Ohne Internet funktioniert die Spracherkennung nur, wenn dein Gerät das deutsche Offline-Sprachpaket installiert hat.
+- Falsch eingetragen? „Kennzeichen rückgängig“ oder den Eintrag in der Liste antippen und entfernen.
+
+### Kamera-Scanner
+Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Text und sucht das Muster *Kürzel + Buchstaben + Ziffern* (z. B. „KA AB 123“).
+- Ein Kennzeichen zählt erst, wenn es mehrfach hintereinander gelesen wurde. Halte die Kamera daher 1–2 Sekunden ruhig.
+- **Auto** aus (Standard): Bei einem neuen Kennzeichen fragt die App „Hinzufügen?“. **Auto** an: Neue Kennzeichen werden sofort eingetragen (Vibration und Ton).
+- Bereits gesammelte Kennzeichen zeigt die App nur kurz als „schon gesehen“ an. Dasselbe Kürzel wird danach 8 Sekunden lang ignoriert.
+- Mit **1× / 2× / 3×** zoomst du heran.
+- Plakette und blauer EU-Streifen stören nicht. Für gute Ergebnisse: genug Licht, Schild möglichst gerade und scharf, nicht zu weit weg.
+
+### Tippen
+Über das Tastatur-Symbol kannst du ein Kürzel oder einen Ort eintippen. Hier ist **kein** Codewort nötig.
+
+### Import und Export
+Drei-Punkte-Menü oben rechts:
+- **Backup importieren:** liest ein Backup der App „Kennzeichensammler“ ein. Vorhandene Einträge bleiben unverändert, nichts wird doppelt angelegt.
+- **Backup exportieren:** erzeugt eine Backup-Datei mit allen alten und neuen Kennzeichen, die du in „Kennzeichensammler“ wieder einlesen kannst. Android hängt manchmal eine Endung wie `.bin` an, benenne die Datei dann um.
+- **Liste exportieren (CSV):** Datum, Land, Kennzeichen, Ort und Region zum Öffnen in Excel o. Ä.
+- **Info & Haftung:** zeigt den Haftungsausschluss.
+
 ## Datenschutz
 - Es gibt kein Konto, keine Werbung und keine Statistik. Deine Funde bleiben auf dem Gerät.
 - Beim **ersten Start** lädt die App einmalig die Kennzeichen-Liste (`data.db`, ca. 1,5 MB) vom GitHub-Projekt [JPTK04/kennzeichen](https://github.com/JPTK04/kennzeichen). Danach funktioniert sie offline. Die Daten gehören dem jeweiligen Projekt und sind nicht Teil dieser App.
