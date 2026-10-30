@@ -14,7 +14,7 @@ Kompatibel mit Backups der App „Kennzeichensammler“ (Import und Export).
 2. In den Android-Einstellungen „Installation aus unbekannten Quellen“ für den Browser/Dateimanager erlauben.
 3. APK öffnen und installieren. Voraussetzung: Android 8 oder neuer, 64-Bit-ARM-Gerät (praktisch alle aktuellen Handys).
 
-SHA-256 von `kennzeichen-voice-1.2.apk`: `b2bc801a68697b909fc7a34a1b241900d825bb927ffbadc601878d64511ad281`
+Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases. Alle früheren Versionen bleiben verfügbar, siehe [Versionshistorie](CHANGELOG.md).
 
 ## Bedienung
 
@@ -35,6 +35,8 @@ Zwei Arten:
 - **Buchstabiert mit der Buchstabiertafel:** „Anton Berta“ → AB. Anton, Berta, Cäsar, Dora, Emil, Friedrich, Gustav, Heinrich, Ida, Julius, Kaufmann, Ludwig, Martha, Nordpol, Otto, Paula, Quelle, Richard, Samuel, Theodor, Ulrich, Viktor, Wilhelm, Xanthippe, Ypsilon, Zacharias; für Umlaute Ärger, Ökonom, Übermut.
 - **Buchstabiert mit dem NATO-Alphabet (englisch):** „Alpha Bravo“ → AB. Alfa/Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu. Auch eingedeutschte Schreibweisen des Erkenners (z. B. „Oskar“, „Maik“, „Tscharli“) werden akzeptiert.
 - **Den Ort oder Kreis:** „Karlsruhe“, „München“, „Landkreis Karlsruhe“, „Stadt Pforzheim“. Vorangestellte Wörter wie Stadt, Landkreis, Kreis, Landeshauptstadt, Städteregion, Region, Regionalverband, Hansestadt, Freie, Powiat werden ignoriert.
+
+**Anderes Land, ohne den Modus zu wechseln:** „Kennzeichen Polen WA“, „Kennzeichen Bulgarien CA“, „Kennzeichen Österreich W“ tragen das Kennzeichen direkt im genannten Land ein, auch wenn gerade Deutschland eingestellt ist. „Kennzeichen HH“ bleibt Hamburg. Nach dem Ländernamen kannst du Kürzel, Buchstabiertes (auch NATO) oder Orte sagen. Nur der Ländername allein („Kennzeichen Polen“) bewirkt nichts.
 
 **Befehle** (ebenfalls mit „Kennzeichen“ davor)
 
