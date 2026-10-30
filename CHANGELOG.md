@@ -2,6 +2,9 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 1.4 – 30.10.2026
+- Neu: Die Versionsnummer wird in der App angezeigt (im Kopfbereich und im Dialog „Info & Haftung“).
+
 ## 1.3 – 30.10.2026
 - Neu: Einträge für ein anderes Land per Sprache, ohne den Modus zu wechseln: „Kennzeichen Polen WA“, „Kennzeichen Bulgarien CA“. „Kennzeichen HH“ ergibt weiterhin Hamburg.
 - Die Ergebniskarte zeigt in diesem Fall das Land und den passenden Länderstreifen auf dem Schild.
