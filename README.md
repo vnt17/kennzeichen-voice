@@ -67,6 +67,9 @@ Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Tex
 - Mit **1× / 2× / 4× / 8× / Max** oder mit zwei Fingern zoomst du heran. Der Rahmen bleibt dabei klein und gleich groß, nur das Bild wird größer.
 - Plakette und blauer EU-Streifen stören nicht. Für gute Ergebnisse: genug Licht, Schild möglichst gerade und scharf, nicht zu weit weg.
 
+### Dunkelmodus
+Mit dem Mond-Symbol oben wird das Display schwarz und auf minimale Helligkeit gestellt, das Zuhören startet automatisch und läuft weiter. Alle Berührungen werden geschluckt, damit nichts versehentlich ausgelöst wird (z. B. in der Tasche oder Halterung). Zum Beenden **doppeltippen** oder die Zurück-Taste drücken. Ein einzelner Tipp blendet den Hinweis kurz ein. Schaltest du den Bildschirm mit der Ein-Taste aus, stoppt das Zuhören; der Dunkelmodus ersetzt das ausgeschaltete Display.
+
 ### Tippen
 Über das Tastatur-Symbol kannst du ein Kürzel oder einen Ort eintippen. Hier ist **kein** Codewort nötig.
 

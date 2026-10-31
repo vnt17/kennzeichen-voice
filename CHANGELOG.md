@@ -2,6 +2,10 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 1.7 – 01.11.2026
+- Neu: **Dunkelmodus** (Mond-Symbol oben). Das Display wird schwarz mit minimaler Helligkeit, das Zuhören läuft weiter und startet automatisch. Alle Berührungen werden geschluckt, beendet wird per **Doppeltipp** oder mit der Zurück-Taste. Ein Tipp blendet den Hinweis kurz ein.
+- Behoben: Beim Scannen tschechischer (und anderer) Kennzeichen wurde die Länderkennung im EU-Streifen („CZ“) fälschlich als Region gelesen (z. B. „C“ für Südböhmen). Die Länderkennung wird jetzt ignoriert.
+
 ## 1.6 – 31.10.2026
 - Kamera-Scanner: Der Rahmen ist jetzt kleiner und bleibt beim Zoomen gleich groß. Nur dieser kleinere Ausschnitt wird ausgewertet.
 - Behoben: Teilen sich mehrere Zulassungsbezirke dasselbe Kürzel (BK, HZ, L, NH, ST, TG, TS), wurde beim Scannen immer nur der erste eingetragen und der zweite nie. Jetzt zählt jedes weitere Schild für den nächsten fehlenden Bezirk. Per Sprache gibt es dafür kein „Mehrdeutig“ mehr. Die Karte zeigt „Kürzel gilt für 2 Bezirke“.
