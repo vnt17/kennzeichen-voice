@@ -47,7 +47,11 @@ Zwei Arten:
 | „Kennzeichen Land Länder“ | Wechselt in die Liste der Länder selbst (ganzes Land eintragen, z. B. „Kennzeichen Polen“) |
 | „Kennzeichen Stopp“ (auch: stop, ende, pause, aufhören) | Beendet das Zuhören |
 
-**Rückmeldung:** Ein Ton zeigt, dass das Codewort gehört wurde. Danach sagt die App z. B. „KA, Karlsruhe, neu“ oder „… schon gesehen“. Passt ein Name auf mehrere Kürzel, sagt sie „Mehrdeutig“ und nennt Kandidaten. Dann sag das Kürzel direkt („Kennzeichen KA“). Wird nichts erkannt, trägt die App nichts ein und zeigt „Nicht erkannt“.
+**Rückmeldung:** Ein Ton zeigt, dass das Codewort gehört wurde. Mit dem Umschalter unter dem Mikrofon wählst du die Art der Rückmeldung:
+- **🔊 Ausführlich:** Die App sagt z. B. „KA, Karlsruhe, neu“ oder „… schon gesehen“.
+- **⚡ Schnell:** Keine Ansage, nur Töne: „ding-ding“ bei einem neuen Kennzeichen, „deet-deet“ bei schon gesehen oder nicht erkannt.
+
+Ausführlich: Teilen sich mehrere Bezirke dasselbe Kürzel (z. B. L, ST, HZ), zählt jedes Schild für den nächsten Bezirk, der noch fehlt. Passt ein Name auf mehrere verschiedene Kürzel, sagt sie „Mehrdeutig“ und nennt Kandidaten. Dann sag das Kürzel direkt („Kennzeichen KA“). Wird nichts erkannt, trägt die App nichts ein und zeigt „Nicht erkannt“.
 
 **Tipps**
 - Ortsnamen, die deutsche Buchstabiertafel und das NATO-Alphabet werden zuverlässiger erkannt als einzelne Buchstaben. Du kannst die Alphabete auch mischen („Anton Bravo“).
@@ -60,7 +64,7 @@ Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Tex
 - Ein Kennzeichen zählt erst, wenn es mehrfach hintereinander gelesen wurde. Halte die Kamera daher 1–2 Sekunden ruhig.
 - **Auto** aus (Standard): Bei einem neuen Kennzeichen fragt die App „Hinzufügen?“. **Auto** an: Neue Kennzeichen werden sofort eingetragen (Vibration und Ton).
 - Bereits gesammelte Kennzeichen zeigt die App nur kurz als „schon gesehen“ an. Dasselbe Kürzel wird danach 8 Sekunden lang ignoriert.
-- Mit **1× / 2× / 3×** zoomst du heran.
+- Mit **1× / 2× / 4× / 8× / Max** oder mit zwei Fingern zoomst du heran. Der Rahmen bleibt dabei klein und gleich groß, nur das Bild wird größer.
 - Plakette und blauer EU-Streifen stören nicht. Für gute Ergebnisse: genug Licht, Schild möglichst gerade und scharf, nicht zu weit weg.
 
 ### Tippen

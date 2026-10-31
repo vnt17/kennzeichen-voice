@@ -2,6 +2,12 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 1.6 – 31.10.2026
+- Kamera-Scanner: Der Rahmen ist jetzt kleiner und bleibt beim Zoomen gleich groß. Nur dieser kleinere Ausschnitt wird ausgewertet.
+- Behoben: Teilen sich mehrere Zulassungsbezirke dasselbe Kürzel (BK, HZ, L, NH, ST, TG, TS), wurde beim Scannen immer nur der erste eingetragen und der zweite nie. Jetzt zählt jedes weitere Schild für den nächsten fehlenden Bezirk. Per Sprache gibt es dafür kein „Mehrdeutig“ mehr. Die Karte zeigt „Kürzel gilt für 2 Bezirke“.
+- „Schon gesehen“ zeigt jetzt das Datum der ersten Sichtung an.
+- Neu: Umschalter „Ausführlich: Ansage“ / „Schnell: nur Töne“ unter dem Mikrofon. Im Schnellmodus gibt es keine Sprachausgabe, sondern „ding-ding“ für neue Kennzeichen und „deet-deet“ für schon gesehen oder nicht erkannt. Das Codewort wird weiterhin mit einem Ton bestätigt.
+
 ## 1.5 – 31.10.2026
 - Kamera-Scanner: Rahmen, in den das Kennzeichen gehalten wird. Nur dieser Bereich wird ausgewertet, dadurch werden entferntere Kennzeichen deutlich besser gelesen. Der Rahmen färbt sich orange, wenn ein Kennzeichen gelesen wird, und grün, wenn es erkannt wurde.
 - Mehr Zoom: stufenlos per Zwei-Finger-Geste bis zum Maximum der Kamera, dazu Zoomstufen 1×, 2×, 4×, 8× und Max sowie eine Zoom-Anzeige.
