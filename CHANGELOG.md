@@ -2,6 +2,13 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 2.0 – 01.11.2026
+- **Neu (Beta): Android Auto.** Die App erscheint jetzt im Launcher des Autos als „Kennzeichen“ mit einem großen grünen Knopf **„Kennzeichen sagen“**. Der Knopf startet die Spracherkennung des Handys (Handy-Mikrofon), das Ergebnis steht groß auf dem Auto-Display und wird vorgelesen. Es gelten dieselben Eingaben wie sonst: Kürzel, Orte, „Polen WZW“, „rückgängig“, „Land Polen“. Zusätzlich gibt es die Unterhaltung „Kennzeichen“ (Menü → „Android Auto (Beta): Unterhaltung starten“), auf die du in Android Auto per „Antworten“ sprichst.
+  - **Beta-Hinweis:** Die Funktion ist neu und nur eingeschränkt getestet. Android Auto hat keine Kategorie für diese App; sie meldet sich als „Orte“-App an und funktioniert nur, wenn in den Android-Auto-Entwickleroptionen **„Unbekannte Quellen“** eingeschaltet ist. Während der Erkennung pausiert Musik, danach läuft sie normalerweise weiter. Rückmeldungen willkommen.
+- Neu: Die Liste in der App aktualisiert sich sofort, wenn über Android Auto ein Kennzeichen eingetragen wird (vorher erst nach Neustart der App).
+- Behoben: Ein Ortsname wie „Karlsruhe“ wurde als mehrdeutig gewertet (KA und BR „Landkreis Karlsruhe“). Jetzt gewinnt der Ableitungsort (KA), und ein vollständiger Kreisname („Landkreis Karlsruhe“) gewinnt am meisten (BR).
+- Die Zwischenstände 1.10 bis 1.12 wurden nicht veröffentlicht; 2.0 enthält alles davon.
+
 ## 1.8 – 01.11.2026
 - Neu: **Updates aus der App.** Menü → „Nach Updates suchen …“ fragt GitHub nach der neuesten Version und zeigt die Neuerungen. Auf Wunsch lädt die App die APK herunter, prüft die SHA-256-Prüfsumme und übergibt sie an den Android-Installer; du bestätigst dort die Installation. Deine Daten bleiben erhalten. Zusätzlich prüft die App einmal pro Tag beim Start und zeigt bei einer neuen Version oben einen grünen Hinweis. Die automatische Prüfung lässt sich im Menü ausschalten. Beim ersten Mal verlangt Android eine einmalige Freigabe „Unbekannte Apps installieren“.
 - Dunkelmodus dunkler: Status- und Navigationsleiste werden ausgeblendet, die Helligkeit geht auf das Minimum, der Hinweistext ist dunkler und verschwindet schneller. Android zeigt dabei beim ersten Mal eine eigene Vollbild-Meldung, die du mit „Verstanden“ bestätigst.

@@ -70,6 +70,19 @@ Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Tex
 ### Dunkelmodus
 Mit dem Mond-Symbol oben wird das Display schwarz und auf minimale Helligkeit gestellt, das Zuhören startet automatisch und läuft weiter. Alle Berührungen werden geschluckt, damit nichts versehentlich ausgelöst wird (z. B. in der Tasche oder Halterung). Status- und Navigationsleiste werden ausgeblendet und die Helligkeit auf das Minimum gestellt; beim ersten Mal zeigt Android dazu eine eigene Vollbild-Meldung, die du mit „Verstanden“ bestätigst. Zum Beenden **doppeltippen** oder die Zurück-Taste drücken. Ein einzelner Tipp blendet den Hinweis kurz ein. Schaltest du den Bildschirm mit der Ein-Taste aus, stoppt das Zuhören; der Dunkelmodus ersetzt das ausgeschaltete Display.
 
+### Android Auto (Beta)
+Die Funktion ist neu und noch wenig getestet. Es gibt zwei Wege:
+
+**1. Eigene App im Auto-Launcher (großer Knopf)**
+1. Einmalig auf dem Handy: **Android Auto** öffnen → Einstellungen → die **Versionsnummer 10-mal antippen** → Entwickleroptionen → **„Unbekannte Quellen“** einschalten. Das ist nötig, weil die App nicht aus dem Play Store kommt und Android Auto dafür keine passende Kategorie hat (die App meldet sich als „Orte“-App an).
+2. Handy neu mit dem Auto verbinden, im Launcher **„Kennzeichen“** öffnen.
+3. Auf **Kennzeichen sagen** tippen und das Kennzeichen sprechen. Das Handy-Mikrofon hört zu, das Ergebnis steht auf dem Display und wird vorgelesen. Es gelten dieselben Eingaben wie sonst („Karlsruhe“, „HH“, „Polen WZW“, „rückgängig“, „Land Polen“). Das Codewort ist hier nicht nötig.
+
+**2. Unterhaltung „Kennzeichen“**
+In der App: Menü → **Android Auto (Beta): Unterhaltung starten** (Benachrichtigungen erlauben). In Android Auto die Unterhaltung öffnen → **Antworten** → Kennzeichen sagen. Die Antwort kommt als Nachricht („KA, Stadt/Landkreis Karlsruhe, neu“).
+
+Bekannte Einschränkungen: Während der Erkennung pausiert Musik kurz. Rückmeldungen und Fehlerberichte bitte als Issue.
+
 ### Updates
 Menü → **Nach Updates suchen …**: Die App fragt GitHub nach der neuesten Version. Gibt es eine, siehst du die Neuerungen und kannst mit **Jetzt aktualisieren** die APK laden. Die App prüft die SHA-256-Prüfsumme und startet den Android-Installer, in dem du die Installation bestätigst. Deine Sammlung bleibt erhalten. Beim ersten Mal musst du Android einmalig erlauben, dass Kennzeichen Voice Updates installieren darf („Unbekannte Apps installieren“). Zusätzlich prüft die App einmal am Tag beim Start; bei einer neuen Version erscheint oben ein grüner Hinweis. Die automatische Prüfung kannst du im Menü ausschalten. Die erste Version mit dieser Funktion (1.8) musst du noch von Hand installieren.
 
