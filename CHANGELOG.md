@@ -2,6 +2,10 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 1.8 – 01.11.2026
+- Neu: **Updates aus der App.** Menü → „Nach Updates suchen …“ fragt GitHub nach der neuesten Version und zeigt die Neuerungen. Auf Wunsch lädt die App die APK herunter, prüft die SHA-256-Prüfsumme und übergibt sie an den Android-Installer; du bestätigst dort die Installation. Deine Daten bleiben erhalten. Zusätzlich prüft die App einmal pro Tag beim Start und zeigt bei einer neuen Version oben einen grünen Hinweis. Die automatische Prüfung lässt sich im Menü ausschalten. Beim ersten Mal verlangt Android eine einmalige Freigabe „Unbekannte Apps installieren“.
+- Dunkelmodus dunkler: Status- und Navigationsleiste werden ausgeblendet, die Helligkeit geht auf das Minimum, der Hinweistext ist dunkler und verschwindet schneller. Android zeigt dabei beim ersten Mal eine eigene Vollbild-Meldung, die du mit „Verstanden“ bestätigst.
+
 ## 1.7 – 01.11.2026
 - Neu: **Dunkelmodus** (Mond-Symbol oben). Das Display wird schwarz mit minimaler Helligkeit, das Zuhören läuft weiter und startet automatisch. Alle Berührungen werden geschluckt, beendet wird per **Doppeltipp** oder mit der Zurück-Taste. Ein Tipp blendet den Hinweis kurz ein.
 - Behoben: Beim Scannen tschechischer (und anderer) Kennzeichen wurde die Länderkennung im EU-Streifen („CZ“) fälschlich als Region gelesen (z. B. „C“ für Südböhmen). Die Länderkennung wird jetzt ignoriert.
