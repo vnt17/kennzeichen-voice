@@ -59,6 +59,9 @@ Ausführlich: Teilen sich mehrere Bezirke dasselbe Kürzel (z. B. L, ST, HZ), z�
 - Ohne Internet funktioniert die Spracherkennung nur, wenn dein Gerät das deutsche Offline-Sprachpaket installiert hat.
 - Falsch eingetragen? „Kennzeichen rückgängig“ oder den Eintrag in der Liste antippen und entfernen.
 
+### Parkplatzmodus
+Der Knopf **🅿 Parkplatz** unter dem Mikrofon startet das Zuhören **ohne Codewort**: Du sagst direkt das Kennzeichen, z. B. „WI“ oder „Polen WGM“, und es wird sofort gewertet. „Kennzeichen“ davor ist erlaubt, aber nicht nötig. Rückgängig, Land wechseln und Stopp funktionieren wie sonst. Ein weiterer Tipp auf den Knopf beendet den Modus. Achtung: Es wird alles Gesagte ausgewertet, also nur dort nutzen, wo sonst niemand redet.
+
 ### Kamera-Scanner
 Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Text und sucht das Muster *Kürzel + Buchstaben + Ziffern* (z. B. „KA AB 123“).
 - Ein Kennzeichen zählt erst, wenn es mehrfach hintereinander gelesen wurde. Halte die Kamera daher 1–2 Sekunden ruhig.

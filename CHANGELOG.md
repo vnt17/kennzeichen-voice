@@ -2,6 +2,12 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 2.2 – 02.11.2026
+- **Neu: Parkplatzmodus.** Eigener Knopf **„🅿 Parkplatz“** unter dem Mikrofon. Ein Tipp startet das Zuhören ohne Codewort: Du sagst direkt das Kennzeichen („WI“, „Polen WGM“, einen Ortsnamen oder buchstabiert) und es wird sofort gewertet. Ein vorangestelltes „Kennzeichen“ stört nicht. „rückgängig“, „Land …“ und „Stopp“ funktionieren weiter. Erneutes Tippen auf den Knopf (oder Stopp am Mikrofon) beendet den Modus; er gilt nur, solange das Zuhören läuft. **Hinweis:** Im Parkplatzmodus wird alles Gesagte ausgewertet, auch Gespräche in der Nähe. Nur einschalten, wo sonst niemand redet.
+- Neu: **Auswertung und Statistik** (Balkendiagramm-Symbol oben): was schon gesammelt ist, was noch fehlt, dazu Statistiken je Land.
+- Das Kennzeichen-Schild zeigt den blauen EU-Streifen größer, mit besser lesbarer Länderkennung.
+- Der Zwischenstand 2.1 wurde nicht veröffentlicht; 2.2 enthält alles davon.
+
 ## 2.0 – 01.11.2026
 - **Neu (Beta): Android Auto.** Die App erscheint jetzt im Launcher des Autos als „Kennzeichen“ mit einem großen grünen Knopf **„Kennzeichen sagen“**. Der Knopf startet die Spracherkennung des Handys (Handy-Mikrofon), das Ergebnis steht groß auf dem Auto-Display und wird vorgelesen. Es gelten dieselben Eingaben wie sonst: Kürzel, Orte, „Polen WZW“, „rückgängig“, „Land Polen“. Zusätzlich gibt es die Unterhaltung „Kennzeichen“ (Menü → „Android Auto (Beta): Unterhaltung starten“), auf die du in Android Auto per „Antworten“ sprichst.
   - **Beta-Hinweis:** Die Funktion ist neu und nur eingeschränkt getestet. Android Auto hat keine Kategorie für diese App; sie meldet sich als „Orte“-App an und funktioniert nur, wenn in den Android-Auto-Entwickleroptionen **„Unbekannte Quellen“** eingeschaltet ist. Während der Erkennung pausiert Musik, danach läuft sie normalerweise weiter. Rückmeldungen willkommen.
