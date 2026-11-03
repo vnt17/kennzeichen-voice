@@ -62,6 +62,30 @@ Ausführlich: Teilen sich mehrere Bezirke dasselbe Kürzel (z. B. L, ST, HZ), z�
 ### Parkplatzmodus
 Der Knopf **🅿 Parkplatz** unter dem Mikrofon startet das Zuhören **ohne Codewort**: Du sagst direkt das Kennzeichen, z. B. „WI“ oder „Polen WGM“, und es wird sofort gewertet. „Kennzeichen“ davor ist erlaubt, aber nicht nötig. Rückgängig, Land wechseln und Stopp funktionieren wie sonst. Ein weiterer Tipp auf den Knopf beendet den Modus. Achtung: Es wird alles Gesagte ausgewertet, also nur dort nutzen, wo sonst niemand redet.
 
+### Sammler-Backup in Drive aktualisieren
+
+> **⚠ Keine Garantie.** Diese Funktion hat bei Tests funktioniert. Trotzdem kann für Datenverlust **absolut keine Garantie** gegeben werden: weder in Kennzeichen Voice noch in der Kennzeichensammler-App noch in deinem Google Drive. Lege vorher eigene Sicherungen an und prüfe das Ergebnis. Nutzung auf eigene Gefahr.
+
+**Wozu?** Die Kennzeichensammler-App fragt Google Drive über die Drive-API ab, aber nur mit dem Berechtigungsumfang `drive.file`. Damit sieht sie ausschließlich Dateien, die sie **selbst** angelegt hat. Ein Backup aus Kennzeichen Voice, das du von Hand in Drive legst, findet sie nicht, auch wenn der Name `KennzeichensammlerBackupX-…` stimmt.
+
+**Wie funktioniert es?** Kennzeichen Voice legt keine neue Datei an, sondern schreibt den Inhalt einer bereits von der Sammler-App angelegten Datei neu. Sie bleibt dieselbe Drive-Datei und damit weiterhin eine Datei der Sammler-App.
+1. In der Sammler-App einmal ein Backup anlegen (dort „Backup / Wiederherstellen“). Es liegt danach in Drive unter **Meine Ablage** und heißt `KennzeichensammlerBackupX-TT.MM.JJJJ`.
+2. In Kennzeichen Voice: Menü ⋮ → **„Sammler-Backup in Drive aktualisieren …“**. Im Dateiauswahldialog über ☰ → **Drive** → **Meine Ablage** (oder über die Suche) genau diese Datei wählen. Die Auswahl merkt sich die App, beim nächsten Mal reicht ein Tipp.
+3. Die App liest die Datei und prüft, ob sie ein Sammler-Backup ist. Der Dialog zeigt, wie viele Einträge sie enthält, wie viele in Kennzeichen Voice fehlen und wie viele Kennzeichen Voice selbst hat. Fehlende Einträge werden auf Wunsch (Häkchen, standardmäßig an) vorher in Kennzeichen Voice übernommen, damit nichts verloren geht.
+4. **Überschreiben:** Zuerst speichert die App eine **Kopie des alten Inhalts** in `Downloads/Drive-Backup-Sicherung-<Datum>-<Zeit>.bak`. Dann erzeugt sie aus deiner ganzen Sammlung ein Backup im Format der Sammler-App (zlib-komprimiert, Kennung `KX1`, darin eine SQLite-Datenbank) und schreibt es über die Drive-App in die gewählte Datei.
+5. **Gegenprobe:** Die App liest die Datei wieder ein und vergleicht die Anzahl der Einträge. Stimmt sie nicht oder tritt ein Fehler auf, versucht sie, den alten Inhalt zurückzuschreiben, und meldet das.
+6. Die Drive-App lädt die Änderung im Hintergrund hoch. Danach kann die Sammler-App die Datei über „Wiederherstellen aus Google Drive“ lesen.
+
+**Voraussetzungen:** Drive-App installiert und angemeldet, Internet für das Hochladen, die Datei der Sammler-App liegt in deinem Drive.
+
+**Warum es trotzdem schiefgehen kann**
+- Das Dateiformat der Sammler-App ist nicht offiziell dokumentiert (aus Backups abgeleitet). Ein Update der Sammler-App kann es ändern.
+- Beim Schreiben oder Hochladen können Fehler passieren (Verbindungsabbruch, Drive-Synchronisation, Speicherplatz). Die Gegenprobe prüft nur die lokale Sicht der Drive-App, nicht, ob der Upload fertig ist.
+- Wählst du die falsche Datei, wird sie überschrieben. Der alte Inhalt liegt dann nur in der Kopie in Downloads.
+- Eine Wiederherstellung in der Sammler-App kann deren Daten verändern oder überschreiben.
+
+**Was du vorher tun solltest:** Menü → **Backup exportieren** und die Datei an einem zweiten Ort aufbewahren, in der Sammler-App ebenfalls ein Backup anlegen, die Kopie in Downloads erst löschen, wenn alles stimmt.
+
 ### Kamera-Scanner
 Kamera-Symbol oben rechts. Halte das Kennzeichen ins Bild, die App liest den Text und sucht das Muster *Kürzel + Buchstaben + Ziffern* (z. B. „KA AB 123“).
 - Ein Kennzeichen zählt erst, wenn es mehrfach hintereinander gelesen wurde. Halte die Kamera daher 1–2 Sekunden ruhig.

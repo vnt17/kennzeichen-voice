@@ -2,6 +2,9 @@
 
 Alle Versionen stehen unter [Releases](../../releases) zum Download bereit. Die SHA-256-Prüfsumme jeder APK steht in den Hinweisen des jeweiligen Releases.
 
+## 2.3 – 03.11.2026
+- **Neu: „Sammler-Backup in Drive aktualisieren …“** (Menü). Überschreibt den Inhalt eines von der Kennzeichensammler-App angelegten Backups in Google Drive mit dem Backup von Kennzeichen Voice. Hintergrund: Die Sammler-App sieht in Drive nur Dateien, die sie selbst angelegt hat (`drive.file`), eine von Hand hochgeladene Datei findet sie nicht. Vorher wird der alte Inhalt als Kopie in Downloads gespeichert, auf Wunsch werden fehlende Einträge zuerst in Kennzeichen Voice übernommen, danach prüft die App die geschriebene Datei. **Keine Garantie:** Trotz erfolgreicher Tests kann für Datenverlust absolut keine Garantie gegeben werden; eigene Sicherungen vorher anlegen. Ausführliche Erklärung in der README und unter „Info & Haftung“.
+
 ## 2.2 – 02.11.2026
 - **Neu: Parkplatzmodus.** Eigener Knopf **„🅿 Parkplatz“** unter dem Mikrofon. Ein Tipp startet das Zuhören ohne Codewort: Du sagst direkt das Kennzeichen („WI“, „Polen WGM“, einen Ortsnamen oder buchstabiert) und es wird sofort gewertet. Ein vorangestelltes „Kennzeichen“ stört nicht. „rückgängig“, „Land …“ und „Stopp“ funktionieren weiter. Erneutes Tippen auf den Knopf (oder Stopp am Mikrofon) beendet den Modus; er gilt nur, solange das Zuhören läuft. **Hinweis:** Im Parkplatzmodus wird alles Gesagte ausgewertet, auch Gespräche in der Nähe. Nur einschalten, wo sonst niemand redet.
 - Neu: **Auswertung und Statistik** (Balkendiagramm-Symbol oben): was schon gesammelt ist, was noch fehlt, dazu Statistiken je Land.
